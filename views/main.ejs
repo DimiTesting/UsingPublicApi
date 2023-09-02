@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PublicAPIUsage</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+    <% if (joke) {%>
+        <h2 class="joke"> <%=joke %></h2>
+    <%} else %>
+    <%{%>
+        <h2 class="joke"> <%=setup %> <%=delivery %></h2>
+        <p>P.S. Please do not take it serious, it is just a joke</p>
+        </div>
+    <%}%>
+    </div>
+</body>
+</html>
